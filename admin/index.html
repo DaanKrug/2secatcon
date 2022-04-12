@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta http-equiv="Cache-Control" content="public, max-age=86400" />
+    	<meta charset="utf-8" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+        	body{padding: 0; margin: 0; overflow: hidden;}
+        	#externalEventFrame{border: 0; margin: 0; padding: 0; overflow: hidden; width: 100%; height: 98vh;}
+        </style>
+        <title>IV Semin&aacute;rio Nacional: Servi&ccedil;o Social, Trabalho e Pol&iacute;tica Social - SENASS</title>
+        <meta name="title" content="IV Semin&aacute;rio Nacional: Servi&ccedil;o Social, Trabalho e Pol&iacute;tica Social - SENASS" />
+		<meta name="keywords" content="Seminário Nacional, Serviço Social, Trabalho e Política Social" />
+		<meta name="description" content="IV Seminário Nacional: Serviço Social, Trabalho e Política Social" />
+    </head>
+    <body onresize="onresize();">
+    	<iframe id="externalEventFrame" 
+    	        src="" 
+    	        title="External Event">
+    	</iframe>
+    	<script>
+	    	function onresize(){
+	    		var w = window.innerWidth;
+	    		var h = window.innerHeight;
+	    		elem.style.width = w + 'px';
+	    		elem.style.height = h + 'px';
+	    	}
+	    	var url = 'https://skallerten.com.br/?event=';
+	    	url += '26-02-2022-IV-Seminario-Nacional-Servico-Social,-Trabalho-e-Politica-Social';
+	    	url += '&skipToLogin=true';
+	    	var elem = document.getElementById('externalEventFrame');
+			elem.src = url;
+			onresize();
+    	</script>
+    </body>
+</html>
